@@ -1,0 +1,94 @@
+body {
+    background-image: url('../images/browns.jpg');
+    font-family: 'Ubuntu', sans-serif;
+    color: #ef5821;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ef5821;
+}
+
+#newScreen {
+    background-color: #8c5744;
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 20%
+    margin-bottom: 20%;
+}
+
+
+.startBox {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.finishBox {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    color: #ef5821;
+    padding: 2%;
+}
+
+#answerScreen {
+    display: none;
+    background-color: #8c5744;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#endGame {
+    display: none;
+    background-color: #8c5744;
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+.end {
+    color: #ef5821;
+}
+
+.timeRemain {
+    color: #ef5821;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+body .container {
+    background-color: #8c5744;
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.questions {
+    font-size: 25px;
+    ]
+}
+
+
+header {
+    font-size: 60px;
+    color: #ef5821;
+}

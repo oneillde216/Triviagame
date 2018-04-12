@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Browns Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="newScreen">
+        <div class="startBox">
+            <h1>Very Difficult and Slightly Sad Browns Trivia Game</h1>
+            <hr />
+            <p>You have 60 seconds to guess 10 questions.</p>
+            <br />
+            <p>Click To Start</p>
+            <button type="button" id="start-btn">Please Win</button>
+        </div>
+    </div>
+
+    <div id="answerScreen">
+        <div class="finishBox">
+            <h2>Lets see how you did</h2>
+            <hr />
+            <p id="correctScreen">Correct Answers: </p>
+            <p id="wrongScreen">Wrong Answers: </p>
+        </div>
+    </div>
+
+
+    <div id="endGame">
+        <div class="wrongBox">
+            <h2 class="end">Game over</h2>
+            <hr />
+            <p>Here's youre score:</p>
+            <p id="correctEndGame">Correct Answers: </p>
+            <p id="wrongEndGame">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>Cleveland Browns Trivia</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" id="sub-but">Submit</button>
+        </div>
+
+    </div>
+    <script src="assets/javascript/app.js "></script>
+</body>
+
+</html>
